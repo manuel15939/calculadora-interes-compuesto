@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interes Compuesto</title>
+    
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calacula el interes compuesto</h1>
+    </div>
+    
+    <section class="cuerpo-calc">
+        <div id="form">
+            <label class="info" for="capital">Capital</label>
+        <div class="input">
+            <input type="number" name="capital" id="capital"> 
+        </div>
+        <br>
+        <label class="info" for="tasa_interes">Tasa interes %</label>
+        <div class="input">
+            <input type="number" name="tasa_interes" id="tasa_interes">
+        </div>
+        <br>
+        <label class="info" for="tiempo">Tiempo</label>
+        <div class="input">
+            <input type="number" name="tiempo" id="tiempo">
+        </div>
+        <div class="capitalizacion">
+            <p>Tipo de tasa de interes</p>
+            <input type="radio" name="tipo_capitalizacion" id="anual">
+            <label for="anual">Anual</label>
+            <input type="radio" name="tipo_capitalizacion" id="trimestral">
+            <label for="trimestral">Trimestral</label>
+            <div>
+                <h5>si seleccionas anual debes colocar el tiempo de la deuda  </h5>
+                <h5>o inversion en años, si selecionas trimestral en meses</h5>
+            </div>
+            
+        </div>
+        <br>
+        <div class="btn">
+            <button id="calcular">Calcular</button>
+        </div>
+        <br>
+        <div>
+            <label>Resultado</label>
+            <p id="total"></p>
+            <label>Interes</label>
+            <p id="interes"></p>
+        </div>
+         <script src="./proyecto-taller-js.js"></script>
+        </div>
+        
+        
+    </section>
+   
+
+
+</body>
+</html>
