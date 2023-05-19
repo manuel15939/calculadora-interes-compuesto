@@ -1,4 +1,3 @@
-
 const capital = document.getElementById('capital');
 const tasaInteres = document.getElementById('tasa_interes');
 const tiempo = document.getElementById('tiempo');
